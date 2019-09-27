@@ -16,8 +16,11 @@ RUN apt-get update && \
     && /opt/conda/bin/pip install pydotplus \
     && rm -rf /var/lib/apt/lists/*
 
+<<<<<<< HEAD
 # Add Live slideshows with RISE
 RUN conda install -c damianavila82 rise
 
+=======
+>>>>>>> branch for my personal modifications
 USER $NB_UID
 
