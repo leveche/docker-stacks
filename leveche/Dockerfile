@@ -18,6 +18,7 @@ RUN apt-get update && \
 
 # Add Live slideshows with RISE
 RUN conda install -c damianavila82 rise
+RUN conda install -c conda-forge jupyterlab-git
 
 USER $NB_UID
 
